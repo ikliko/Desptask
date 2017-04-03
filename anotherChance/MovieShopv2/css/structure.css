@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+#wrapper {
+    min-width: 100%;
+    min-height: 769px;
+}

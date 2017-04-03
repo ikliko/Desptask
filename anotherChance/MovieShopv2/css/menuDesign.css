@@ -1,0 +1,55 @@
+#menu {
+    width: 294px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#menu li {
+    list-style: none;
+    float: left;
+    font-size: 24px;
+    line-height: 37px;
+    padding: 10px;
+    background: url("../img/menu-separator.jpg") no-repeat right;
+}
+
+#menu li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#menu li:first-child {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#menu li:last-child {
+    padding-right: 0;
+    background: none;
+}
+
+#menu li #catalog {
+    height: 30px;
+    display: none;
+    position: absolute;
+    margin-left: -88px;
+}
+
+#menu li:hover>#catalog {
+    display: block;
+}
+
+#menu li #catalog li {
+    float: none;
+    background: none;
+    background: #ffffff;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+}
+
+#menu li #catalog li:last-child {
+    border-bottom: none;
+}
